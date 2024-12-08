@@ -1,0 +1,9 @@
+[build]
+  publish = "bonafide"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/bonafide/index.html"
+  status = 200
+  force = true
